@@ -940,6 +940,7 @@ input,textarea{
 
 textarea{
     resize: none;
+    height: 200px;
 }
 
 .contact-koumoku{
