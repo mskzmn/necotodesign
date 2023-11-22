@@ -966,15 +966,11 @@ textarea{
     border: none;
     background-color: #afa5a3;
     cursor: pointer;
-    box-shadow: 2px 5px 0 #7f7675;   
-}
-
-.c-btn p{
-    color: #fffffa;
-    font-size: 14px;
-    letter-spacing: 1em;
+    box-shadow: 2px 5px 0 #7f7675;  
+    color: #fff; 
+    letter-spacing:10px;
     text-align: center;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 /* サンクスページ */
