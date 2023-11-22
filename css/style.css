@@ -58,7 +58,7 @@ body{
     color: #776e6b;
     background-color: #fff;
     font-size: 16px;
-    font-family: 'fot-tsukuardgothic-std', sans-serif;
+    font-family: 'fot-tsukuardgothic-std', 'sans-serif';
     font-weight: 400;
     font-style: normal;
 }
