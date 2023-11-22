@@ -935,8 +935,10 @@ input{
     background-color: #ccc9c6;
 }
 
-.waku-last{
-    height: 250px;
+textarea{
+    resize: none;
+    width: 100%;
+    height: 200px;
 }
 
 .contact-koumoku{
