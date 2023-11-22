@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neco to design</title>
+    <meta name="description" content="portfolio">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="top" id="top">
+        <p><a href="index.html"><img src="illust/mudai23.png" alt="ロゴ"></a></p>
+        <nav class="pc-navi">
+            <ul>
+                <li><a href="about.html"><span>A</span>BOUT</a></li>
+                <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+                <li><a href="work.html"><span>W</span>ORK</a></li>
+                <li><a href="photo.html"><span>P</span>HOTO</a></li>
+                <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="work-mockup">
+        <p><img src="mockup/lp01w.jpg" alt="lp"></p>
+    </div>
+    <div class="sakuhin-syousai">
+        <p>コワーキングスペースLP</p>
+    </div>
+    <div class="hamburger"><span></span></div>
+    <nav class="sp-navi">
+        <ul>
+            <li><a href="about.html"><span>A</span>BOUT</a></li>
+            <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+            <li><a href="work.html"><span>W</span>ORK</a></li>
+            <li><a href="photo.html"><span>P</span>HOTO</a></li>
+            <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="gaiyou">
+        <dl>
+            <dt>● カテゴリ</dt>
+            <dd>ランディングページ</dd>
+            <dt>● 使用ツール</dt>
+            <dd>photoshop / illustrator</dd>
+            <dt>● 担当箇所</dt>
+            <dd>デザイン</dd>
+            <dt>● 制作期間</dt>
+            <dd>１週間</dd>
+            <dt>● 費用</dt>
+            <dd>¥50,000〜</dd>
+            <dt>● point</dt>
+            <dd>内容を記入</dd>
+        </dl>
+    </div>
+    <div class="gazou-kakudai">
+        <p><img src="mockup/aset1@2x-50.jpg" alt="バナー"></p>
+    </div>
+    <div class="footer-frame">
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>SERVICE</li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="photo.html">PHOTO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="sns-icon">
+            <p><img src="illust/mudai42.png" alt="インスタグラム"></p>
+            <p><img src="illust/mudai49.png" alt="スレッズ"></p>
+        </div>
+        <p class="copyright">©️ neco to design</p>
+        <p class="to-top">
+            <a href="#top"><img src="illust/mudai77.png" alt="トップへ"></a>
+        </p>
+    </div>
+
+
+    <script>
+        $(function () {
+
+            $('.hamburger,.sp-navi').on('click', function () {
+                $('.sp-navi').fadeToggle();
+                $('.hamburger').toggleClass('open')
+            });
+        });
+    </script>
+</body>
+
+</html>

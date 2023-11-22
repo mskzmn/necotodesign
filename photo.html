@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neco to design</title>
+    <meta name="description" content="portfolio">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="loader"><img src="illust/mudai29.png" alt=""></div>
+    <div class="sp-loader"><img src="illust/mudai31.png" alt=""></div>
+
+    <section class="top" id="top">
+        <p><a href="index.html"><img src="illust/mudai23.png" alt=""></a></p>
+        <nav class="pc-navi">
+            <ul>
+                <li><a href="about.html"><span>A</span>BOUT</a></li>
+                <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+                <li><a href="work.html"><span>W</span>ORK</a></li>
+                <li><a href="photo.html"><span>P</span>HOTO</a></li>
+                <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="photo-illust"><img src="illust/mudai56.png" alt="メインビジュアル">
+        <p class="shashinillust-title">しゃしん。</p>
+    </div>
+    <div class="hamburger"><span></span></div>
+    <nav class="sp-navi">
+        <ul>
+            <li><a href="about.html"><span>A</span>BOUT</a></li>
+            <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+            <li><a href="work.html"><span>W</span>ORK</a></li>
+            <li><a href="photo.html"><span>P</span>HOTO</a></li>
+            <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="photo-ichiran">
+        <div class="photo-ichiran-s">
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_4460.jpg" alt="写真"></p>
+                </div>
+            </div>
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_4803.jpg" alt="写真"></p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-ichiran-s">
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_4847.jpg" alt="写真"></p>
+                </div>
+            </div>
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_4915.jpg" alt="写真"></p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-ichiran-s">
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_5214.jpg" alt="写真"></p>
+                </div>
+            </div>
+            <div class="photo-waku">
+                <div>
+                    <p><img src="photo/IMG_5329.jpg" alt="写真"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-frame">
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>SERVICE</li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="photo.html">PHOTO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="sns-icon">
+            <p><img src="illust/mudai42.png" alt="インスタグラム"></p>
+            <p><img src="illust/mudai49.png" alt="スレッズ"></p>
+        </div>
+        <p class="copyright">©️ neco to design</p>
+        <p class="to-top">
+            <a href="#top"><img src="illust/mudai77.png" alt="トップへ"></a>
+        </p>
+    </div>
+
+
+    <script>
+        $(function () {
+
+            $('.hamburger,.sp-navi').on('click', function () {
+                $('.sp-navi').fadeToggle();
+                $('.hamburger').toggleClass('open')
+            });
+
+            // ローディング画面
+
+            $(".loader").delay(1000).fadeOut(600);
+            $(".sp-loader").delay(1000).fadeOut(600);
+
+            (function (d) {
+                var config = {
+                    kitId: 'bti5bpl',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                    h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+            })(document);
+        });
+
+        // モーダルウィンドウ
+
+        const modalItem = document.querySelector('.photo-waku');
+        modalItem.addEventListener('click', () => {
+            modalItem.classList.remove('open');
+        });
+    </script>
+</body>
+
+</html>
