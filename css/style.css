@@ -866,6 +866,10 @@ a{
     width: 65.88%;
 }
 
+.sp-kakudai{
+    display: none;
+}
+
 /* 写真body内 */
 
 .photo-illust{
@@ -1466,6 +1470,14 @@ input[type="text"]:focus{
 
     .gazou-kakudai{
         width: 100%;
+    }
+
+    .pc-kakudai{
+        display: none;
+    }
+
+    .sp-kakudai{
+        display: block;
     }
 
     /* 写真ページ */
