@@ -992,6 +992,10 @@ textarea{
     line-height: 1.75;
 }
 
+input[type="text"]:focus{
+    outline: #7f7675;
+}
+
 /* ローディング画面 */
 
 .sp-loader{
