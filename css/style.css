@@ -1022,6 +1022,12 @@ input[type="text"]:focus{
 #lightbox .lb-container { padding: 2px; }
 
 
+/* トップへ */
+
+.back{
+    margin: 0 auto;
+}
+
 
 
 @media screen and (max-width:767px) {

@@ -39,8 +39,7 @@
         <div class="contact-all">
             <form
                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScbvaba9PzOickOZO9E6NzI_p0DDEwVnAon4ZLV1R1ycZvKbA/formResponse"
-                target=”hidden_iframe”>
-
+                target="_self" method="POST" id="mG61Hd" onsubmit="submitted=true;">>
                 <div class="contact-koumoku">
                     <label for=""><span class="c-title">お名前</span><span class="c-mark">*</span></label>
                 </div>
@@ -58,8 +57,12 @@
                 </div>
                 <textarea name="entry.24211999" id="" cols="30" rows="10"></textarea>
                 <input type="submit" class="c-btn" value="送信">
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
-                    onload="if(submitted)  {window.location='thanks.html';}"></iframe>
+                <script type="text/javascript">
+                    var submitted = false;
+                </script>
+
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                    onload="if(submitted){window.location='thanks.html';}"></iframe>
             </form>
         </div>
         <div class="hamburger"><span></span></div>
