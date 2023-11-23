@@ -1498,6 +1498,10 @@ input[type="text"]:focus{
         width: 70%;
     }
 
+    .click-text{
+        padding-left: 10px;
+    }
+
     /* コンタクトページ */
 
     .contact-all{
