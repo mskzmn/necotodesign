@@ -1013,6 +1013,9 @@ textarea{
     object-fit: cover;
 }
 
+/* モーダルウィンドウ */
+
+#lightbox .lb-container { padding: 2px; }
 
 
 
