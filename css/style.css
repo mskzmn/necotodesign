@@ -885,8 +885,21 @@ a{
     right: 27%;
 }
 
+.click-gazou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.click-text{
+    padding-left: 20px;
+}
+.click-gazou img{
+    width: 200px;
+}
+
 .photo-ichiran{
-    margin-top: 250px;
     margin-bottom: 300px;
 }
 
@@ -978,7 +991,7 @@ textarea{
 .thank-you{
     text-align: center;
     margin-top: 220px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .kanryou{
@@ -1025,7 +1038,12 @@ input[type="text"]:focus{
 /* トップへ */
 
 .back{
-    margin: 0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.back img{
+    width: 150px;
 }
 
 
