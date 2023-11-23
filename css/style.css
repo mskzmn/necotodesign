@@ -417,7 +417,6 @@ padding-top: 50px;
 
 .mockup ul li img{
     width: 30vw;
-    padding: 0 20px;
 }
 
 /* スライド */
@@ -1287,7 +1286,7 @@ input[type="text"]:focus{
 
     .me{
         font-size: 16px;
-        margin-top: -40px;
+        margin-top: -55px;
     }
 
     .syoukai-line img{
