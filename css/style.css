@@ -1478,6 +1478,7 @@ input[type="text"]:focus{
 
     .sp-kakudai{
         display: block;
+        padding: 0 10px;
     }
 
     /* 写真ページ */
