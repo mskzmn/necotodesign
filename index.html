@@ -331,6 +331,16 @@
             });
         });
 
+        // トップへボタン途中から表示
+
+        $(window).on('load scroll', function () {
+            if ($(this).scrollTop() > 1) {
+                $('.to-top').addClass('show');
+            } else {
+                $('.to-top').removeClass('show');
+            }
+        });
+
     </script>
 
 </body>
