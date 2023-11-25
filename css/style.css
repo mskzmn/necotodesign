@@ -316,12 +316,12 @@ padding-top: 50px;
     position: relative;
 }
 
-/* .service-title{
+.service-title{
     margin-left: 0;
-    animation: service-title 3s infinite;
+    /* animation: service-title 3s infinite; */
 }
 
-@keyframes service-title{
+/* @keyframes service-title{
     0%{
         transform: translateY(50px);
     }
