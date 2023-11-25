@@ -531,18 +531,20 @@ padding-top: 50px;
 
 /* トップへ */
 
-.to-top{
+#top{
     position: fixed;
     bottom: 65px;
     right: 65px;
     width: 148px;
+    display: none;
 }
 
-.to-top.show {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
+@media (min-height:800px){
+    body:target #top{
+        display: block;
+    }    
 }
+
 
 
 
