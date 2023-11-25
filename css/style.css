@@ -318,6 +318,16 @@ padding-top: 50px;
 
 .service-title{
     margin-left: 0;
+    animation: service-title 3s infinite;
+}
+
+@keyframes service-title{
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .service-frame{
