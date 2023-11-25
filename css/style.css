@@ -318,17 +318,17 @@ padding-top: 50px;
 
 .service-title{
     margin-left: 0;
-    /* animation: service-title 3s infinite; */
+    animation: service-title 3s infinite;
 }
 
-/* @keyframes service-title{
+@keyframes service-title{
     0%{
         transform: translateY(50px);
     }
     100%{
         transform: translateY(0);
     }
-} */
+}
 
 .service-frame{
     border: solid 1px #afa6a5;
@@ -541,7 +541,7 @@ padding-top: 50px;
 
 /* トップへ */
 
-#top{
+.to-top{
     position: fixed;
     bottom: 65px;
     right: 65px;
@@ -550,7 +550,7 @@ padding-top: 50px;
 }
 
 @media (min-height:800px){
-    body:target #top{
+    body:target .to-top{
         display: block;
     }    
 }
