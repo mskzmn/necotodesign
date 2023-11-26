@@ -119,7 +119,7 @@
     </div>
     <!-- サービス -->
     <section class="service" id="service">
-        <h1 class="service-title">
+        <h1 class="service-title fadeIn">
             <div class="border-clear"></div>
             <div class="border-square">
                 <p>SERVICE</p>
@@ -344,6 +344,27 @@
                 }
             });
         });
+
+        // スライドイン
+
+        jQuery(function ($) {
+            $(window).on('load scroll', function () {
+
+                var box = $('.fadeIn');
+                var animated = 'animated';
+
+                box.each(function () {
+
+                    var boxOffset = $(this).offset().top;
+                    var scrollPos = $(window).scrollTop();
+                    var wh = $(window).height();
+
+                    if (scrollPos > boxOffset - wh + 100) {
+                        $(this).addClass(animated);
+                    }
+                });
+            });
+        })
 
 
 
