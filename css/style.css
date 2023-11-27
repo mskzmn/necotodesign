@@ -813,7 +813,7 @@ a{
     padding: 50px 100px;
 }
 
-.mockup-title p {
+.mockup-title h2 {
     font-size: 25px;
     font-family: "skia";
     letter-spacing: 5px;
