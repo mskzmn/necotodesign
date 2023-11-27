@@ -292,7 +292,7 @@ padding-top: 50px;
     margin-bottom: -50px;
 }
 
-.border-square p{
+.border-square span{
     font-size: 20px;
     font-family: "skia";
     letter-spacing: 5px;
