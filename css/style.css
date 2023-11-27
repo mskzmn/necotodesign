@@ -1440,10 +1440,11 @@ input[type="text"]:focus{
         margin-top: 20px;
     }
 
-    .sp-title hr{
-        width: 50px;
-        margin-left: 48px;
-        margin-right: 10px;
+    .sp-title span{
+        display: inline-block;
+        width: 12%;
+        margin: 0 10px 4.5px;
+        border-bottom: solid 1px #333333;
     }
 
     .sp-title p{
