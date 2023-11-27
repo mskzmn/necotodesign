@@ -1447,8 +1447,9 @@ input[type="text"]:focus{
         border-bottom: solid 1px #333333;
     }
 
-    .sp-title p{
+    .sp-title h2{
         text-align: left;
+        font-family: 'skia';
     }
 
     .mockup-title p{
