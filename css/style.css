@@ -1441,6 +1441,7 @@ input[type="text"]:focus{
         text-align: left;
         margin-left: 8%;
         font-family: 'skia';
+        letter-spacing: 1px;
     }
 
     .mockup-title p{
