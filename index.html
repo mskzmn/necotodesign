@@ -17,9 +17,10 @@
 </head>
 
 <body>
-
-    <div class="loader"><img src="illust/mudai29.png" alt=""></div>
-    <div class="sp-loader"><img src="illust/mudai31.png" alt=""></div>
+    <div class="loader-wrap">
+        <div class="loader"><img src="illust/mudai29.png" alt=""></div>
+        <div class="sp-loader"><img src="illust/mudai31.png" alt=""></div>
+    </div>
 
     <!-- メインビジュアル -->
     <section class="main-visual" id="top">
@@ -280,8 +281,7 @@
 
             // ローディング画面
 
-            $(".loader").delay(1000).fadeOut(900);
-            $(".sp-loader").delay(1000).fadeOut(900);
+            $(".loader-wrap").delay(1000).fadeOut(900);
         });
 
         // フォント
@@ -348,7 +348,7 @@
         // スライドイン
 
         jQuery(function ($) {
-            $(window).on('load scroll', function () {
+            $(window).on('scroll', function () {
 
                 var box = $('.fadeIn');
                 var animated = 'animated';
@@ -361,7 +361,6 @@
 
                     if (scrollPos > boxOffset - wh + 100) {
                         $(this).addClass(animated);
-                        return false;
                     }
                 });
             });
