@@ -1439,6 +1439,7 @@ input[type="text"]:focus{
 
     .sp-title h2{
         text-align: left;
+        margin-left: 8%;
         font-family: 'skia';
     }
 
